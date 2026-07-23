@@ -31,9 +31,10 @@ function Customers() {
 
             <div className="mt-10">
 
-                <CustomerTable
-                    customers={customers}
-                />
+            <CustomerTable
+                customers={customers}
+                refreshCustomers={loadCustomers}
+            />
 
             </div>
 
